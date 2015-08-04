@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'n42gitversion'
+
+N42gitversion::VersionCLI.start( ARGV )
