@@ -22,8 +22,7 @@ Add run script build phase:
     export PATH="/usr/local/opt/rbenv/shims:$PATH"
     INFO_PLIST="${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Info"
     defaults write "$INFO_PLIST" CFBundleShortVersionString $(bundle exec n42gitversion shortVersion)
-    defaults write "$INFO_PLIST" CFBundleVersion $(bundle exec n42gitversion version)
-    defaults write "$INFO_PLIST" FullVersion $(bundle exec n42gitversion fullVersion)
+    defaults write "$INFO_PLIST" CFBundleVersion $(bundle exec n42gitversion fullVersion)
 
 ## Usage
 
