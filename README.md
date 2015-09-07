@@ -18,12 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/n42gitversion/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Commands:
+  n42gitversion fullVersion     # prints the full version
+  n42gitversion help [COMMAND]  # Describe available commands or one specific command
+  n42gitversion shortVersion    # prints the short version
+  n42gitversion version         # prints the version
