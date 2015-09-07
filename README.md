@@ -20,6 +20,9 @@ Or install it yourself as:
 
 Commands:
     $ n42gitversion fullVersion     # prints the full version
+   
     $ n42gitversion help [COMMAND]  # Describe available commands or one specific command
+   
     $ n42gitversion shortVersion    # prints the short version
+   
     $ n42gitversion version         # prints the version
