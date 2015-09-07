@@ -4,7 +4,7 @@ require "n42gitversion/cli"
 module N42gitversion
   class Versioner
     def fullVersion
-      "#{shortVersion}.#{number_of_commits}"
+      "#{shortVersion}.#{buildNumber}"
     end
 
     def shortVersion
