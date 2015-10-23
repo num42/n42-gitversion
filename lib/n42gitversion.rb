@@ -14,7 +14,7 @@ module N42gitversion
     private
 
     def buildNumber
-      `git --git-dir=".git" --work-tree="." rev-list master | wc -l`.strip
+      `git --git-dir=".git" --work-tree="." rev-list HEAD | wc -l`.strip
     end
   end
 end
