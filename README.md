@@ -11,7 +11,7 @@ Requirements:
 
 Add this line to your application's Gemfile:
 
-    gem "n42gitversion", git: "git@bitbucket.org:number42/n42-gitversion-ruby.git"
+    gem "n42gitversion", git: "git://github.com/num42/n42-gitversion-ruby.git"
 
 And then execute:
 
